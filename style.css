@@ -35,6 +35,7 @@ nav ul{
     background-image: url("assets/Hero-bg.png");
     width: 1440px;
     height: 652px;
+    margin: 0 auto;
 }
 #hero img{
     width: 240.28px;
@@ -158,7 +159,7 @@ main > p{
     height: 614px;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
-    margin: 0px 152px 149px 148px ;
+    margin: 0px 152px 149px 152px ;
 }
 .inspiratation > div > div{
     padding: 32px;
@@ -166,4 +167,47 @@ main > p{
 .inspiratation > div > div > iframe{
     border-radius: 16px;
 }
-
+/* Part-3 */
+.target > h1 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.target > p{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 294px 48px 294px; 
+    text-align: center;
+}
+.parent{
+    display: flex;
+    gap: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.child{
+    width: 364px;
+    height: 350px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 50px;
+}
+.child img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+.child p{
+    margin: 8px 0px 24px 0px;
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.child a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Part-4 */
