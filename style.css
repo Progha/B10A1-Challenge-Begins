@@ -3,7 +3,6 @@
 *{
     font-family: Azeret Mono;
 }
-
 nav > ul > li{
     list-style: none;
 }
@@ -181,6 +180,9 @@ main > p{
     margin: 24px 294px 48px 294px; 
     text-align: center;
 }
+.target a:hover{
+    color: blueviolet;
+}
 .parent-1{
     display: flex;
     gap: 24px;
@@ -291,6 +293,7 @@ main > p{
 .support > div >  form >input{
     height: 57px;
     width: 548px;
+    border-radius: 8px;
 }
 .support > div >  form > button{
     width: 120px;
@@ -301,3 +304,18 @@ main > p{
     border-radius: 8px;
 }
 /* Footer Start */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h1{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 150px;
+}
+footer div{
+    margin-right: 150px;
+}
+
