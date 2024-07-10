@@ -65,3 +65,75 @@ nav ul{
     color: rgb(255, 255, 255);
     margin: 32px 616px 44px 616px;
 }
+
+/* Main Part Start */
+main h1{
+    font-size: 32px;
+    font-weight: 800px;
+    text-align: center;
+    margin-top: 154px;
+}
+main > p{
+    text-align: center;
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 296px 0px 292px;
+}
+.layer-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 106.5px 297px 0px 293px;
+}
+.layer-1 > div h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 185.83px;
+}
+.layer-1 > div p{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 107.83px 32px 0px;
+}
+.layer-1 > div button{
+    width: 150px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33, 0.8);
+}
+.layer-1 img{
+    width: 274.17px;
+    height: 240px;
+}
+#layer-2{
+    display: flex;
+    justify-content: space-between;
+}
+#layer-2 > img{
+    margin: 137.5px 32px 0px 293px;
+    width: 240px;
+    height: 240px;
+}
+#layer-2 > div h2{
+    margin: 138.5px 398px 16px 0px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+#layer-2 >div p{
+    color: rgb(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 407px 32px 0px;
+}
+#layer-2 > div button{
+    width: 150px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33, 0.8);
+}
