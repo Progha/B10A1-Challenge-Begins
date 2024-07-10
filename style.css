@@ -253,3 +253,51 @@ main > p{
     font-weight: 700;
 }
 /* Part-5 */
+.support{
+    width: 1160px;
+    height: 314px;
+    margin-top: 43px;
+    margin: 111px auto;
+    background-image: url("assets/handshake.jpg");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 16px;
+}
+.support div{
+    height: 314px;
+    width: 1160px;
+    border-radius: 16px;
+    background-color: rgba(16, 14, 14, 0.558);
+    border-radius: 16px;
+}
+.support > div > h1{
+    color: white;
+    padding-top: 64px;
+    text-align: center;
+}
+.support > div >p{
+    color: rgba(255, 255, 255, 0.701);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+.support > div >  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support > div >  form >input{
+    height: 57px;
+    width: 548px;
+}
+.support > div >  form > button{
+    width: 120px;
+    height: 58px;
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+/* Footer Start */
